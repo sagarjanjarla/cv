@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Vibur);
+html,body{
+  height:100%
+}
+body{
+text-align: center;
+color: white;
+background: #112 url(https://images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg) center no-repeat;
+ background-size:cover;
+  margin:0
+}
+.text{
+  position: absolute;
+  top: 32%;
+  left:28%;
+
+}
+h1{
+   font-size: 60px;
+}
+.neon {
+    animation: neonAnim 1.0s alternate-reverse infinite;
+    color: #EBF1F7;
+   font-family: 'Neonderthaw', cursive;
+
+}
+@keyframes neonAnim {
+    from {
+        text-shadow:
+          0 0 10px rgba(167, 196, 227, .7),
+          0 0 60px rgba(167, 196, 227, .9),
+          0 0 120px rgba(167, 196, 227, .7);
+      }
+      to {
+        text-shadow:
+          0 0 2px rgba(167, 196, 227, .7),
+          0 0 20px rgba(167, 196, 227, .7),
+          0 0 60px rgba(167, 196, 227, .7);
+      }
+}
+
+.top{
+ position: absolute;
+  font-size:130%;
+  top: 5%;
+  left:70%;
+}
+.about{
+  margin-right:20px;
+}
+a{
+  color:#fff;
+  opacity:0.5;
+}
+a:link{
+  text-decoration: none;
+ font-family: 'Vibur';
+  -webkit-transition: 0.3s ease;
+}
+a:hover{
+  color:white;
+  opacity:1;
+  text-shadow: 0px -2px 0px rgba(0,0,0,1), 0 0 5px rgba(255,255,255,0.8),0 -4px 15px rgba(255,255,255,0.5);
+}
+p{
+  font-family: 'vibur';
+  font-size: 20px;
+  opacity:0.8;
+  border-style: solid;
+  width: 45%;
+  margin-left: 25%;
+}
+.logo {
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.logo span{
+  animation: blink linear infinite 2s;
+}
